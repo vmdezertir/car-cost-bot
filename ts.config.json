@@ -4,7 +4,9 @@
     "target": "es2020",
     "module": "commonjs",
     "outDir": "dist",
-    "sourceMap": true
+    "sourceMap": true,
+    "baseUrl": "./src",
+    "strict": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
